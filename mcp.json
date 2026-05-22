@@ -1,0 +1,86 @@
+{
+  "name": "notion-workspace-automation",
+  "version": "0.1.0",
+  "description": "MCP server that analyzes, cleans, and rebuilds Notion workspaces. Built by the creator of measurement-uncertainty.mcpize.run.",
+  "author": {
+    "name": "Yongbeom Kim",
+    "url": "https://github.com/kyb8801"
+  },
+  "category": "productivity",
+  "tags": [
+    "notion",
+    "workspace",
+    "automation",
+    "analysis",
+    "duplicate-detection",
+    "archive",
+    "template",
+    "dashboard",
+    "sync"
+  ],
+  "homepage": "https://mcpize.com/servers/notion-workspace-automation",
+  "repository": "https://github.com/kyb8801/notion-workspace-automation-mcp",
+  "license": "MIT",
+  "runtime": "python",
+  "entry": "src/server.py",
+  "pricing": {
+    "free": {
+      "calls_per_month": 50,
+      "workspaces": 1
+    },
+    "pro": {
+      "price_usd_per_month": 19,
+      "calls_per_month": "unlimited",
+      "workspaces": 1,
+      "priority_support": false
+    },
+    "team": {
+      "price_usd_per_month": 79,
+      "calls_per_month": "unlimited",
+      "workspaces": 5,
+      "priority_support": true
+    }
+  },
+  "tools": [
+    {
+      "name": "analyze_workspace",
+      "description": "Full page tree, DB graph, and relation map"
+    },
+    {
+      "name": "find_duplicates",
+      "description": "TF-IDF clustering of similar pages"
+    },
+    {
+      "name": "audit_orphans",
+      "description": "Pages with zero inbound links"
+    },
+    {
+      "name": "archive_stale",
+      "description": "Pages untouched > N days"
+    },
+    {
+      "name": "consolidate_duplicates",
+      "description": "Auto-merge a duplicate cluster"
+    },
+    {
+      "name": "rebuild_hierarchy",
+      "description": "Suggest new page tree based on usage"
+    },
+    {
+      "name": "apply_template",
+      "description": "Drop a template into any page"
+    },
+    {
+      "name": "clone_workspace",
+      "description": "Mirror workspace into another (job change use case)"
+    },
+    {
+      "name": "create_dashboard",
+      "description": "Generate KPI dashboard from any metric DB"
+    },
+    {
+      "name": "sync_databases",
+      "description": "Two-way sync between DBs with field mapping"
+    }
+  ]
+}

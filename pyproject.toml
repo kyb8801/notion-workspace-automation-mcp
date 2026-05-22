@@ -1,0 +1,47 @@
+[project]
+name = "notion-workspace-automation"
+version = "0.1.0"
+description = "MCP server that analyzes, cleans, and rebuilds Notion workspaces"
+readme = "README.md"
+authors = [{name = "Yongbeom Kim", email = "kyb8801@gmail.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.11"
+keywords = ["mcp", "notion", "anthropic", "claude", "automation", "workspace"]
+
+dependencies = [
+    "fastmcp>=0.2.0",
+    "notion-client>=2.2.1",
+    "scikit-learn>=1.5.0",
+    "networkx>=3.3",
+    "numpy>=1.26.0",
+    "pydantic>=2.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-mock>=3.12.0",
+    "respx>=0.21.0",
+    "ruff>=0.4.0",
+]
+
+[project.scripts]
+notion-workspace-automation = "src.server:main"
+
+[project.urls]
+Homepage = "https://github.com/kyb8801/notion-workspace-automation-mcp"
+Documentation = "https://mcpize.com/servers/notion-workspace-automation"
+Issues = "https://github.com/kyb8801/notion-workspace-automation-mcp/issues"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
