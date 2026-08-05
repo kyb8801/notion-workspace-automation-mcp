@@ -6,7 +6,7 @@ Notion Workspace Automation MCP Server.
 - Organize: archive stale, consolidate, rebuild hierarchy
 - Build: apply template, clone workspace, dashboards, DB sync
 
-Author: Yongbeom Kim (kyb8801)
+Author: Youngbum Kim (kyb8801)
 License: MIT
 """
 

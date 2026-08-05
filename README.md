@@ -1,6 +1,6 @@
 # Notion Workspace Automation MCP
 
-> **The first MCP server that analyzes, cleans, and rebuilds Notion workspaces — for Claude / Cursor / Windsurf.**
+> **An MCP server that analyzes, cleans, and rebuilds Notion workspaces — for Claude / Cursor / Windsurf.**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-green.svg)](https://www.python.org/)
@@ -10,7 +10,7 @@
 
 While Notion's official MCP only **reads and writes** pages, this server **analyzes structure, finds duplicates, archives stale content, and rebuilds workspaces** — in 30 minutes instead of 8 hours.
 
-Built by the creator of [measurement-uncertainty.mcpize.run](https://measurement-uncertainty.mcpize.run) — the world's first MCP server for GUM-compliant measurement uncertainty.
+Built by the author of [measurement-uncertainty.mcpize.run](https://measurement-uncertainty.mcpize.run), an MCP server for GUM measurement uncertainty.
 
 ## 🛠️ 10 Tools
 
@@ -112,7 +112,7 @@ pytest tests/ -v
 
 ## 📜 License
 
-MIT © Yongbeom Kim (kyb8801)
+MIT © Youngbum Kim (kyb8801)
 
 ## 🔗 Related
 

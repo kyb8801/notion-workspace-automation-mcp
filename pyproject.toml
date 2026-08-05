@@ -3,7 +3,7 @@ name = "notion-workspace-automation"
 version = "0.1.0"
 description = "MCP server that analyzes, cleans, and rebuilds Notion workspaces"
 readme = "README.md"
-authors = [{name = "Yongbeom Kim", email = "kyb8801@gmail.com"}]
+authors = [{name = "Youngbum Kim", email = "kyb8801@gmail.com"}]
 license = {text = "MIT"}
 requires-python = ">=3.11"
 keywords = ["mcp", "notion", "anthropic", "claude", "automation", "workspace"]
