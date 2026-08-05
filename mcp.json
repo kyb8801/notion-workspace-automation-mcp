@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "MCP server that analyzes, cleans, and rebuilds Notion workspaces. Built by the creator of measurement-uncertainty.mcpize.run.",
   "author": {
-    "name": "Yongbeom Kim",
+    "name": "Youngbum Kim",
     "url": "https://github.com/kyb8801"
   },
   "category": "productivity",
